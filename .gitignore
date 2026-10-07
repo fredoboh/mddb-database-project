@@ -31,5 +31,11 @@ Thumbs.db
 *.log
 
 # Large datasets
-data/user_review_table.csv
-data/expert_review_table.csv
+data/cleaned/user_review_table.csv
+data/cleaned/expert_review_table.csv
+
+# Windows
+desktop.ini
+
+# Raw data
+data/raw/
