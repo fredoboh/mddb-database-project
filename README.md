@@ -54,7 +54,7 @@ database project/
 │   ├── raw/                  # Raw source data (excluded from Git)
 │   └── cleaned/              # Cleaned datasets
 │
-├── erd/                      # ERD files
+├── erd/                    
 │
 ├── notebooks/
 │   ├── db_interaction.ipynb
@@ -78,7 +78,7 @@ database project/
 │   ├── question_2.sql
 │   └── question_3.sql
 │
-├── src/                      # Python source code, if applicable
+├── src/                      
 ├── .gitignore
 └── README.md
 ```
