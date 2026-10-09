@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS public.sales_table
     movie_id serial,
     international_box_office double precision,
     domestic_box_office double precision,
-    worldwide_box_office double precision,
+    total_revenue double precision,
     production_budget double precision,
     theatre_count double precision,
     avg_run_per_theatre double precision,
@@ -317,6 +317,10 @@ ALTER TABLE IF EXISTS public.expert_reviews_table
 
 ALTER TABLE IF EXISTS public.user_reviews_table 
     ALTER COLUMN reviewer_id 
+    DROP NOT NULL;
+
+ALTER TABLE IF EXISTS public.sales_table 
+    ALTER COLUMN movie_id 
     DROP NOT NULL;
 
 END;
